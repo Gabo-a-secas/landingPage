@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
 import Card from "./Card.jsx";
+import Footer from "./Footer.jsx";
 
 const Home = () => {
   return (
@@ -51,6 +52,7 @@ const Home = () => {
             linkLabel="Ir"
           />
         </div>
+        <Footer />
       </div>
     </div>
   );
